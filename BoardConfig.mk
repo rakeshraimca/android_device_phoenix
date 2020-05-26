@@ -13,6 +13,9 @@ TARGET_SCREEN_DENSITY := 440
 # Inherit from sm6150-common
 -include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
+# ANXCamera
+-include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := phoenix,phoenixin
 
