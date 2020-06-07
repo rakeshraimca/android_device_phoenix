@@ -66,6 +66,11 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+
+# Notch style overlay
+PRODUCT_PACKAGES += \
+    NotchNoFillOverlay
+
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay/lineage-sdk \
     $(LOCAL_PATH)/overlay/packages/apps/Snap
