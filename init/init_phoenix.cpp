@@ -78,6 +78,7 @@ void vendor_load_properties() {
     std::string region;
     region = GetProperty("ro.boot.hwc", "");
 
+    property_override("org.evolution.build_maintainer", "RAKESH ROSHAN");
     if (region == "CN") {
         for (const auto &source : ro_props_default_source_order) {
             set_ro_product_prop(source, "brand", "Redmi");
