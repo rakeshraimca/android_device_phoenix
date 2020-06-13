@@ -468,8 +468,8 @@
     </integer-array>
 
     <!-- Whether device supports variable refresh rate -->
-    <!--<bool name="config_hasVariableRefreshRate">true</bool>
-    <integer name="config_defaultVariableRefreshRateSetting">3</integer>-->
+    <bool name="config_hasVariableRefreshRate">true</bool>
+    <integer name="config_defaultVariableRefreshRateSetting">3</integer>
 
     <!-- Not allow to switch to higher refresh rate when (display, ambient) brightness falls into
          the region defined by the two arrays -->
