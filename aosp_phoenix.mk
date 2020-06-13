@@ -22,6 +22,9 @@ TARGET_INCLUDE_WIFI_EXT := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
+EVO_DONATE_URL := https://paypal.me/Hardrock83
+EVO_SUPPORT_URL := https://t.me/EvolutionXPhoenix
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 #BUILD_FINGERPRINT := google/flame/flame:10/QQ2A.200501.001.A3/6353761:user/release-keys
