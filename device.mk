@@ -12,7 +12,10 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # ANXCamera
-$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+#$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
+#MIUIcamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Biometric
 PRODUCT_PACKAGES += \
