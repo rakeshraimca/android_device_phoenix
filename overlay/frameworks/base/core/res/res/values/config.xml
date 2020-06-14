@@ -468,7 +468,7 @@
     </integer-array>
 
     <!-- Whether device supports variable refresh rate -->
-    <bool name="config_hasVariableRefreshRate">false</bool>
+    <bool name="config_hasVariableRefreshRate">true</bool>
     <integer name="config_defaultVariableRefreshRateSetting">3</integer>
 
     <!-- Not allow to switch to higher refresh rate when (display, ambient) brightness falls into
