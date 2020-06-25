@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/phoenix/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, device/corvus/CorvusParts/corvusparts.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := du_phoenix
